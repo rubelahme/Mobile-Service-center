@@ -15,7 +15,7 @@ const HomeService = () => {
   }, []);
 
   return (
-    <div>
+    <section>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -35,7 +35,7 @@ const HomeService = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

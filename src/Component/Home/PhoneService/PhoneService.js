@@ -3,7 +3,7 @@ import phone from "../../../img/phoneimg.png";
 import "./PhoneService.css";
 const PhoneService = () => {
   return (
-    <div>
+    <section>
       <div className="container">
         <h1 className="py-5 text-center text-success">
           Phone History Wikipedia
@@ -38,7 +38,7 @@ const PhoneService = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -15,16 +15,18 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="container p-5">
-      <div className="pb-5 text-center">
-        <h1 className="text-success">Service Review All</h1>
+    <section>
+      <div className="container p-5">
+        <div className="pb-5 text-center">
+          <h1 className="text-success">Service Review All</h1>
+        </div>
+        <div className="row">
+          {item.map((pd) => (
+            <TestimonialsBody item={pd}></TestimonialsBody>
+          ))}
+        </div>
       </div>
-      <div className="row">
-        {item.map((pd) => (
-          <TestimonialsBody item={pd}></TestimonialsBody>
-        ))}
-      </div>
-    </div>
+    </section>
   );
 };
 

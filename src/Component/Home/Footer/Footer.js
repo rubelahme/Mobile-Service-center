@@ -28,7 +28,7 @@ const Footer = () => {
     { name: "Check Up", link: "/Service" },
   ];
   return (
-    <footer className="footer-area footer border mt-3 clear-both">
+    <footer className="footer border mt-3 ">
       <div className="container p-5 ">
         <div className="row ">
           <div className="col-md-4">

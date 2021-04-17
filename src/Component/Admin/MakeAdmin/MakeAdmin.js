@@ -12,7 +12,7 @@ const MakeAdmin = () => {
     const value = {
       email: data.email,
     };
-    fetch("http://localhost:5000/admin", {
+    fetch("https://infinite-sierra-60197.herokuapp.com/admin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(value),

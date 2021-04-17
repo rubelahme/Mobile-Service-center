@@ -4,7 +4,7 @@ const AllOrderList = () => {
   const [item, setItem] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://infinite-sierra-60197.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);

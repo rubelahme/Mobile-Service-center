@@ -22,7 +22,7 @@ const CheckoutForm = ({ value }) => {
       console.log("[error]", error);
     } else {
       console.log("[PaymentMethod]", paymentMethod, value);
-      fetch("http://localhost:5000/order", {
+      fetch("https://infinite-sierra-60197.herokuapp.com/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...value, paymentMethod }),

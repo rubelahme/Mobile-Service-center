@@ -15,7 +15,7 @@ const Review = () => {
       product: data.product,
       details: data.details,
     };
-    fetch("http://localhost:5000/review", {
+    fetch("https://infinite-sierra-60197.herokuapp.com/review", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(eventData),

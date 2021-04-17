@@ -7,7 +7,7 @@ const HomeService = () => {
   const [item, setItem] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://infinite-sierra-60197.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => {
         setItem(data);

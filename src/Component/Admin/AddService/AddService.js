@@ -17,7 +17,7 @@ const AddService = () => {
       Amount: data.Amount,
       img: img,
     };
-    fetch("http://localhost:5000/users", {
+    fetch("https://infinite-sierra-60197.herokuapp.com/users", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(eventData),

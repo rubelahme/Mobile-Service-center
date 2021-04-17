@@ -9,7 +9,9 @@ const OrderList = () => {
   const [list, setList] = useState([]);
   const [user] = useContext(createProvider);
   useEffect(() => {
-    fetch(`http://localhost:5000/order?email=${user.email}`)
+    fetch(
+      `https://infinite-sierra-60197.herokuapp.com/order?email=${user.email}`
+    )
       .then((res) => res.json())
       .then((result) => {
         setList(result);

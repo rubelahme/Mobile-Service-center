@@ -16,7 +16,7 @@ const BookService = () => {
   const { id } = useParams();
   const [Add, setAdd] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/users/" + id)
+    fetch("https://infinite-sierra-60197.herokuapp.com/users/" + id)
       .then((res) => res.json())
       .then((result) => {
         setAdd(result);

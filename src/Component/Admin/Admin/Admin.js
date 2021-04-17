@@ -14,7 +14,9 @@ const Admin = () => {
   const [user] = useContext(createProvider);
   const [value, setValue] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/admin?email=${user.email}`)
+    fetch(
+      `https://infinite-sierra-60197.herokuapp.com/admin?email=${user.email}`
+    )
       .then((res) => res.json())
       .then((data) => setValue(data));
   }, [user.email]);

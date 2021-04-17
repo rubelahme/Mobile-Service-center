@@ -5,14 +5,14 @@ import { useEffect } from "react";
 const ManageService = () => {
   const [item, setItem] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://infinite-sierra-60197.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);
 
   const handleDelete = (id) => {
     console.log(id);
-    fetch("http://localhost:5000/delete/" + id, {
+    fetch("https://infinite-sierra-60197.herokuapp.com/delete/" + id, {
       method: "DELETE",
     })
       .then((res) => res.json())

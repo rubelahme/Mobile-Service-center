@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import TestimonialsBody from "../TestimonialsBody/TestimonialsBody";
+import "./Testimonials.css";
 
 const Testimonials = () => {
   const [item, setItem] = useState([]);
@@ -16,9 +17,9 @@ const Testimonials = () => {
 
   return (
     <section>
-      <div className="container p-5">
+      <div className="container fonts p-5">
         <div className="pb-5 text-center">
-          <h1 className="text-success">Service Review All</h1>
+          <h1 className="text-success fonts">Service Review All</h1>
         </div>
         <div className="row">
           {item.map((pd) => (

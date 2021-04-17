@@ -29,7 +29,7 @@ const Footer = () => {
   ];
   return (
     <footer className="footer border mt-3 ">
-      <div className="container p-5 ">
+      <div className="container fonts p-5 ">
         <div className="row ">
           <div className="col-md-4">
             <FooterCol key={2} menuTitle="Services" menuItems={services} />
@@ -43,25 +43,31 @@ const Footer = () => {
                 <li className="list-inline-item">
                   <a href="//facebook.com">
                     <FontAwesomeIcon
-                      className="icon active-icon"
+                      className="icon active-icon text-success"
                       icon={faFacebookF}
                     />
                   </a>
                 </li>
                 <li className="list-inline-item">
                   <a href="//google.com">
-                    <FontAwesomeIcon className="icon" icon={faGooglePlusG} />
+                    <FontAwesomeIcon
+                      className="icon text-success"
+                      icon={faGooglePlusG}
+                    />
                   </a>
                 </li>
                 <li className="list-inline-item">
                   <a href="//instagram.com">
-                    <FontAwesomeIcon className="icon" icon={faInstagram} />
+                    <FontAwesomeIcon
+                      className="icon text-success"
+                      icon={faInstagram}
+                    />
                   </a>
                 </li>
               </ul>
               <div className="mt-5">
                 <h6>Call now</h6>
-                <button className="btn btn-primary">+2025550295</button>
+                <button className="btn btn-success">+2025550295</button>
               </div>
             </FooterCol>
           </div>

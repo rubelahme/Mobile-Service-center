@@ -20,8 +20,10 @@ const HomeService = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="p-5">
-              <h1 className="text-success text-center py-2">Phone Service</h1>
-              <h5>
+              <h1 className="text-success text-center py-2 fonts">
+                Phone Service
+              </h1>
+              <h5 className="fonts menu-text ">
                 All types of mobile services are provided. If any of the
                 following mobiles are damaged, then apply for the following
                 services...

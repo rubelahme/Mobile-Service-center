@@ -9,9 +9,9 @@ const ServiceList = (props) => {
     history.push("/details/" + id);
   };
   return (
-    <div className="col-md-4 p-2">
+    <div className="col-md-4 p-2 fonts">
       <div className="text-center  box border  p-3">
-        <div>
+        <div className="menu-text">
           <div className="text-center">
             <img className="picture" src={img} alt="" />
           </div>
@@ -24,7 +24,7 @@ const ServiceList = (props) => {
             <div className="col-md-6">
               <div className="ml-auto">
                 <button
-                  className="btn btn-warning"
+                  className="btn btn-success"
                   onClick={() => handleClick(_id)}
                 >
                   Add service

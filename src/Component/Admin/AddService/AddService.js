@@ -41,11 +41,15 @@ const AddService = () => {
 
   return (
     <div>
-      <h1 className="pb-3 text-info">Add Service</h1>
+      <h1 className="pb-3 text-info fonts">Add Service</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <label htmlFor="">Service Title</label>
+        <label htmlFor="" className="fonts">
+          Service Title
+        </label>
         <input className="form-control" type="text" {...register("name")} />
-        <label htmlFor="">Details</label>
+        <label htmlFor="" className="fonts">
+          Details
+        </label>
         <input
           className="form-control"
           type="text"
@@ -53,7 +57,9 @@ const AddService = () => {
         />
         {errors.exampleRequired && <span>This field is required</span>}
 
-        <label htmlFor="">Amount</label>
+        <label htmlFor="" className="fonts">
+          Amount
+        </label>
         <input
           className="form-control"
           type="number"
@@ -61,12 +67,18 @@ const AddService = () => {
         />
         {errors.exampleRequired && <span>This field is required</span>}
 
-        <label htmlFor="">image</label>
+        <label htmlFor="" className="fonts">
+          image
+        </label>
         <br />
         <input type="file" {...register("file")} onBlur={handleImg} />
         <br />
         <br />
-        <input className="w-25 btn btn-success" type="submit" value="Add" />
+        <input
+          className="w-25 btn btn-success fonts"
+          type="submit"
+          value="Add"
+        />
       </form>
     </div>
   );

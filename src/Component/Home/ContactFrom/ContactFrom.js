@@ -4,7 +4,7 @@ const ContactFrom = () => {
   return (
     <section>
       <div className="contact my-5">
-        <div className="container">
+        <div className="container fonts">
           <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-6">

@@ -8,8 +8,8 @@ const HomeSection = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="pt-5 mt-3">
-            <h2 className="text-danger">Phone Service center</h2>
-            <h5 className="text-dark">
+            <h2 className="text-success fonts">Phone Service center</h2>
+            <h5 className=" fonts menu-text">
               My store name is Ma Store. You will get all the Daran mobile
               services from my shop. All Daran mobile services are done in my
               shop. You will also get all Daran mobile recharges. And you will
@@ -17,7 +17,7 @@ const HomeSection = () => {
             </h5>
             <div className="py-2 ">
               <Link to={"/more"}>
-                <button className="btn btn-success">More Read...</button>
+                <button className="btn btn-success fonts">More Read...</button>
               </Link>
             </div>
           </div>

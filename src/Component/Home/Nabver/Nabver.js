@@ -7,12 +7,12 @@ const Nabver = () => {
   return (
     <header className="">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/" className="fonts">
           Mobile Service center
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto fonts">
             <Nav.Link as={Link} to="/home">
               Home
             </Nav.Link>

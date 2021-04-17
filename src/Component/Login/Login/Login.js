@@ -36,7 +36,7 @@ const Login = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container fonts">
         <div className="row">
           <div className="col">
             <div className="p-5 text-center">

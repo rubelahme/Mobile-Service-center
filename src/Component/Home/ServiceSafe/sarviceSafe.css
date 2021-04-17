@@ -1,9 +1,13 @@
 .section-bg {
-  background-image: url("../../../img/best.png");
+  background-image: url("../../../img/allphone.png");
   width: 100%;
   height: 400px;
   background-size: cover;
   background-attachment: fixed;
+}
+.menuItem {
+  background-color: rgba(0, 0, 0, 0.418);
+  height: 400px;
 }
 .Sales {
   padding-top: 120px;

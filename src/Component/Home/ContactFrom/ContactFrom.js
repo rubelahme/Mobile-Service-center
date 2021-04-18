@@ -27,7 +27,7 @@ const ContactFrom = () => {
                     <br />
                     <input
                       type="submit"
-                      className="form-control btn-warning"
+                      className="form-control btn-success"
                       value="Take  Coupon"
                     />
                     <br />

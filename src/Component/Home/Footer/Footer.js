@@ -35,7 +35,11 @@ const Footer = () => {
             <FooterCol key={2} menuTitle="Services" menuItems={services} />
           </div>
           <div className="col-md-4">
-            <FooterCol key={3} menuTitle="Oral Health" menuItems={oralHealth} />
+            <FooterCol
+              key={3}
+              menuTitle="Phone Service"
+              menuItems={oralHealth}
+            />
           </div>
           <div className="col-md-4">
             <FooterCol key={4} menuTitle="Our Address" menuItems={ourAddress}>

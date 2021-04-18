@@ -12,7 +12,7 @@ const SarviceSafe = () => {
                   <p>New Phone Service Sale</p>
                   <h1>$20 Off Discount</h1>
                   <div>
-                    <button className="btn btn-outline-warning ">
+                    <button className="btn btn-outline-success ">
                       Service Now
                     </button>
                   </div>
